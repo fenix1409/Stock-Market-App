@@ -16,10 +16,10 @@ import NavItems from "./NavItems"
 const UserDropdown = () => {
     const router = useRouter()
     const handleSignOut = async () => {
-        router.push('/sign-in')
+        router.push('/sign-in');
     }
 
-    const user = { name: 'John', email: 'b2550486@gmail.com' }
+    const user = { name: 'John', email: 'b2550486@gmail.com' };
     return (
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
