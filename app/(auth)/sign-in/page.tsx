@@ -54,7 +54,7 @@ const SignIn = () => {
           {isSubmitting ? 'Signing In...' : 'Sign In'}
         </Button>
 
-        <FooterLink text='Already have an account?' linkText='Sign in' href='/sign-in' />
+        <FooterLink text='Do not have an account?' linkText='Sign Up' href='/sign-up' />
       </form>
     </>
   )
